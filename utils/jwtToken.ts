@@ -5,3 +5,5 @@ const jwtToken = (id: string) => {
         expiresIn: '30d',
     });
 }
+
+export default jwtToken;
